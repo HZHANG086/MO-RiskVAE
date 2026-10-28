@@ -1,0 +1,524 @@
+[
+  {
+    "path": "myevae/requirements-experiments.txt",
+    "source": "MO-RiskVAE/myevae/requirements-experiments.txt",
+    "sha256": "f8a50cf1f2fe569e8636022da4b5060526de0ddde11bc557060dc060dcd8cc9a",
+    "bytes": 81
+  },
+  {
+    "path": "analysis/fig_loss_scale.py",
+    "source": "MO-RiskVAE/Jump/fig_loss_scale.py",
+    "sha256": "fe875705fe09ad88acdfc2694cc26658c59a902504c73cb34c3c388ef4de3671",
+    "bytes": 2892
+  },
+  {
+    "path": "analysis/gumbel_score_figures.py",
+    "source": "MO-RiskVAE/Jump/gumbel_score_figures.py",
+    "sha256": "a84391e60d1911526f6893dfcd790b198fe765ea2a36568c03676a4870fb3141",
+    "bytes": 3517
+  },
+  {
+    "path": "analysis/ablation_z_disc_inference.py",
+    "source": "MO-RiskVAE/Jump/ablation_z_disc_inference.py",
+    "sha256": "86820a56490a85a8ba8bbb9fc7cc4acf921de2ac35f58605cc4df67942f4bff7",
+    "bytes": 4066
+  },
+  {
+    "path": "analysis/get_4_2_data.py",
+    "source": "MO-RiskVAE/Jump/get_4_2_data.py",
+    "sha256": "7ba8eb415718820d527c0f2c56f9a4426e1e1294d1a5ca78936055bdca029e4c",
+    "bytes": 3792
+  },
+  {
+    "path": "analysis/gen_latex_table.py",
+    "source": "MO-RiskVAE/Jump/gen_latex_table.py",
+    "sha256": "14e61c5803e1b7d4ec9596b142f2a17fbc7c4de8dd19ad716f7e475c3b2de84e",
+    "bytes": 3867
+  },
+  {
+    "path": "analysis/fig_km_curves.py",
+    "source": "MO-RiskVAE/Jump/fig_km_curves.py",
+    "sha256": "72bf21976d6017d83e778adf2726f3c5d9ce809210c08b7683d9da7cf7635f09",
+    "bytes": 11450
+  },
+  {
+    "path": "analysis/latent_structure_analysis.py",
+    "source": "MO-RiskVAE/Jump/latent_structure_analysis.py",
+    "sha256": "cd5e06cb7d74be312be0675884e4744616f2dea9d4b23a6e769823fa18f6ed43",
+    "bytes": 10626
+  },
+  {
+    "path": "analysis/fig_beta_sweep.py",
+    "source": "MO-RiskVAE/Jump/fig_beta_sweep.py",
+    "sha256": "f6c8a129c43ca8718feed64219c8b20a53505fa5d0708fc78355aeb843a1092d",
+    "bytes": 2715
+  },
+  {
+    "path": "analysis/gumbel_analysis.py",
+    "source": "MO-RiskVAE/Jump/gumbel_analysis.py",
+    "sha256": "436158b46f3fc5a627be6dfa08d5af89b151765fedc6e2131e464177e3678a83",
+    "bytes": 18683
+  },
+  {
+    "path": "analysis/latest/ablation_z_disc_inference.py",
+    "source": "MO-RiskVAE/\u00b5\u2562\u00ea\u03a6\u20a7\u00ec-latest/ablation_z_disc_inference.py",
+    "sha256": "86820a56490a85a8ba8bbb9fc7cc4acf921de2ac35f58605cc4df67942f4bff7",
+    "bytes": 4066
+  },
+  {
+    "path": "analysis/latest/fig_beta_sweep.py",
+    "source": "MO-RiskVAE/\u00b5\u2562\u00ea\u03a6\u20a7\u00ec-latest/fig_beta_sweep.py",
+    "sha256": "f6c8a129c43ca8718feed64219c8b20a53505fa5d0708fc78355aeb843a1092d",
+    "bytes": 2715
+  },
+  {
+    "path": "myevae/configs/baselines.yaml",
+    "source": "MO-RiskVAE/myevae/configs/baselines.yaml",
+    "sha256": "4518b1b1efdb68aa67dad541e079ebc53c03a580aa4e85784da92184a58dab6e",
+    "bytes": 1155
+  },
+  {
+    "path": "myevae/configs/ablation_main.yaml",
+    "source": "MO-RiskVAE/myevae/configs/ablation_main.yaml",
+    "sha256": "c1d4ad0c2500fb5eeb1c2d8f664890abd5de6dc858c7ffc3844712ebb2c99fe9",
+    "bytes": 1300
+  },
+  {
+    "path": "myevae/configs/external_eval.yaml",
+    "source": "MO-RiskVAE/myevae/configs/external_eval.yaml",
+    "sha256": "7b48353f02e3ed51f6a1dd126c8ea3de409edde4915ed49009796096a22e60e5",
+    "bytes": 2051
+  },
+  {
+    "path": "myevae/scripts/eval_cindex.py",
+    "source": "MO-RiskVAE/myevae/scripts/eval_cindex.py",
+    "sha256": "86e35cc1259f10a9e23f2db3b546099271bced86d104af1dc1dbfe463cfcd6c0",
+    "bytes": 3678
+  },
+  {
+    "path": "myevae/scripts/run_batch_baselines.sh",
+    "source": "MO-RiskVAE/myevae/scripts/run_batch_baselines.sh",
+    "sha256": "328260a87f5b9c700284a73d3240805bd746b67e9ac76fb83fca19786dc0b41f",
+    "bytes": 738
+  },
+  {
+    "path": "myevae/scripts/run_batch_eval_main.sh",
+    "source": "MO-RiskVAE/myevae/scripts/run_batch_eval_main.sh",
+    "sha256": "2d9e60c48b7adbb262649cd7ad3d4290e7765fa66ceeb449185007f1d3abd458",
+    "bytes": 1362
+  },
+  {
+    "path": "myevae/scripts/aggregate_seeds.py",
+    "source": "MO-RiskVAE/myevae/scripts/aggregate_seeds.py",
+    "sha256": "a513164b71f0d9ef620abaacfb89a41f229d1996ab1e19c364c669f5ec5f6ce6",
+    "bytes": 2507
+  },
+  {
+    "path": "myevae/scripts/paired_test.py",
+    "source": "MO-RiskVAE/myevae/scripts/paired_test.py",
+    "sha256": "ad7dce0ad5b7310e6ec7542f718821a7b36bedb497dba85949d1d8e12c4a30c3",
+    "bytes": 3429
+  },
+  {
+    "path": "myevae/scripts/run_batch_external.sh",
+    "source": "MO-RiskVAE/myevae/scripts/run_batch_external.sh",
+    "sha256": "3494709b1996c27850d0a3de59f02028dd5e6b080b059e63c445a064004abca2",
+    "bytes": 1231
+  },
+  {
+    "path": "myevae/scripts/run_multiseed_ablation.sh",
+    "source": "MO-RiskVAE/myevae/scripts/run_multiseed_ablation.sh",
+    "sha256": "481a7f3712fb53dba893829edaff9b3503103df3441ee2faeb3afee4b157f0da",
+    "bytes": 1079
+  },
+  {
+    "path": "myevae/scripts/run_multiseed_gumbel.sh",
+    "source": "MO-RiskVAE/myevae/scripts/run_multiseed_gumbel.sh",
+    "sha256": "c4a416dc3a4f6365498ef6830dd811c0ababc0cd229c76d11f2c974dd5b50141",
+    "bytes": 1132
+  },
+  {
+    "path": "myevae/scripts/run_external_eval.py",
+    "source": "MO-RiskVAE/myevae/scripts/run_external_eval.py",
+    "sha256": "f71f0249cffd651323a40bd7d2e58e943670d089c3ea309a185a19d76df06a28",
+    "bytes": 7428
+  },
+  {
+    "path": "myevae/scripts/exp_utils.py",
+    "source": "MO-RiskVAE/myevae/scripts/exp_utils.py",
+    "sha256": "3d79fc662ff59f8fefa60f399e8deff37210dfb015bf288f958feb82f8993598",
+    "bytes": 9034
+  },
+  {
+    "path": "myevae/scripts/bootstrap_ci.py",
+    "source": "MO-RiskVAE/myevae/scripts/bootstrap_ci.py",
+    "sha256": "e6695d273f97729fd576c11c112ababa013ceda028411ffb416bd9a902282c21",
+    "bytes": 1568
+  },
+  {
+    "path": "myevae/scripts/run_batch_external_a100.sh",
+    "source": "MO-RiskVAE/myevae/scripts/run_batch_external_a100.sh",
+    "sha256": "22cf95cfd30d8c553ecb5d49e59d34bd7c5515e9208caa7c21a107ab6a0c5485",
+    "bytes": 1428
+  },
+  {
+    "path": "myevae/scripts/run_encoder_cox.py",
+    "source": "MO-RiskVAE/myevae/scripts/run_encoder_cox.py",
+    "sha256": "2025fff5c7ae32146b92270ad0f1b8f389785b867913ab0280fe268ac848d6f7",
+    "bytes": 11029
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/LICENSE",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/LICENSE",
+    "sha256": "e3dfc456623c7baa7a69bef13b83dcad0df23af41c76d9c6d11fcf66b1434a74",
+    "bytes": 1090
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/pyproject.toml",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/pyproject.toml",
+    "sha256": "0074fed3943b2fc54ae7393d4b7092324f6c5ffd182d7951db918c473ec09f87",
+    "bytes": 2234
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/LICENSE",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/LICENSE",
+    "sha256": "e3dfc456623c7baa7a69bef13b83dcad0df23af41c76d9c6d11fcf66b1434a74",
+    "bytes": 1090
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/pyproject.toml",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/pyproject.toml",
+    "sha256": "0074fed3943b2fc54ae7393d4b7092324f6c5ffd182d7951db918c473ec09f87",
+    "bytes": 2234
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/shap.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/shap.py",
+    "sha256": "9a8a4092816763c5449f217964659704d9926afc08ddc9d38766a881b500656d",
+    "bytes": 9555
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/kldivergence.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/kldivergence.py",
+    "sha256": "a7865a70c2431c1d20d2d1edf29f363a1a22ac93c1b1418247dd2e3b26724abb",
+    "bytes": 396
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/params.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/params.py",
+    "sha256": "fcdbb4931ab314388a1be0749d4b54eeb079c66d612c2e44f945622c0ff087f6",
+    "bytes": 693
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/preprocess.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/preprocess.py",
+    "sha256": "73182440912257ea5e01a89fa2821a12e76f2e249dbba18cec956c5019ddedeb",
+    "bytes": 6542
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/nn.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/nn.py",
+    "sha256": "3cd7f87bd602c4971d5e460f366efad1d426c85c8c551a3713ce2f763996e0f2",
+    "bytes": 14712
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/coxphloss.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/coxphloss.py",
+    "sha256": "649025b0f3597edcefbd37b957ed1fa3ad7bb705420e1b70d5186e29bc2fc457",
+    "bytes": 611
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/__init__.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/__init__.py",
+    "sha256": "793b8086c5ea6f0107017cf4e4859713aa8f3207d335aac12227a3c293bb18f7",
+    "bytes": 3507
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/HSIC.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/HSIC.py",
+    "sha256": "f7f4f304ef8efaa1c888a3163f03819ccde88fa4b69f7142422b46a3bd0e8cbf",
+    "bytes": 806
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/param_grid.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/param_grid.py",
+    "sha256": "e089f83e99df54437d38fbbeb07f4fb6a58758b7000de1d20a34995947c0bc01",
+    "bytes": 2259
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/dataset.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/dataset.py",
+    "sha256": "3a877692bf5d3d61bcaa3d2e004a756a59ed3a00620c9d8332b4b9c43ca3e378",
+    "bytes": 2358
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/plotshap.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/plotshap.py",
+    "sha256": "264a1bf97a66070f3e4c7d6c8b2ae704e7d99d2c2f299e7f7219ddb571907122",
+    "bytes": 584
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/type_prefixes.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/type_prefixes.py",
+    "sha256": "5cfe4aa9d9930656afe6344f39e931f79b33300b530d06b71165b1748ef32ab9",
+    "bytes": 677
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/train.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/train.py",
+    "sha256": "8f90554d16f54e34cac0d54eec9adbaebaedd4cb472f25f6a80209bad324da71",
+    "bytes": 9806
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/buildnetwork.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/buildnetwork.py",
+    "sha256": "910f89cc3dff4673cd2f7f8e6f1ef242d679580ab0ee51a0a1e4c99ef6d53262",
+    "bytes": 618
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/estimator.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/estimator.py",
+    "sha256": "ac8d646143755b75d267111d16b0165e84c5f0a01d2d8fac68bb7e35e9d2dfd0",
+    "bytes": 43146
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/pipelinetools.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/pipelinetools.py",
+    "sha256": "940f75befb33c2ea9c3da87b7a65153bdd0052e2159968d1bef60ec40cf438ff",
+    "bytes": 7812
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/__main__.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/__main__.py",
+    "sha256": "3af5359adfdb530cb650918e7cc4c1553cb6782f7098baaa0a247448c379d45e",
+    "bytes": 76
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/score.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/score.py",
+    "sha256": "59e0788930519637ecb70da24e53d27d71e15b755c1d0fe2d9aaf20d68920f99",
+    "bytes": 3650
+  },
+  {
+    "path": "gumbel-softmax-vae/myevae/src/myevae/mmd.py",
+    "source": "MO-RiskVAE/Jump/gumbel-softmax-vae/myevae/src/myevae/mmd.py",
+    "sha256": "c5d61b562cf8954cc1d6c20dedb57a0612af8fb048308ecf9795475bcf53da49",
+    "bytes": 1356
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/shap.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/shap.py",
+    "sha256": "224a7d2a733ddcd5bbdb77c22312943de4df9300d9aaa2c36cd8108e34a992c0",
+    "bytes": 9565
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/kldivergence.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/kldivergence.py",
+    "sha256": "a7865a70c2431c1d20d2d1edf29f363a1a22ac93c1b1418247dd2e3b26724abb",
+    "bytes": 396
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/params.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/params.py",
+    "sha256": "fcdbb4931ab314388a1be0749d4b54eeb079c66d612c2e44f945622c0ff087f6",
+    "bytes": 693
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/preprocess.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/preprocess.py",
+    "sha256": "73182440912257ea5e01a89fa2821a12e76f2e249dbba18cec956c5019ddedeb",
+    "bytes": 6542
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/nn.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/nn.py",
+    "sha256": "88d7a788bbff10f14fa7ae73d3767827b7ebdc5b32d453df059517eb681020ba",
+    "bytes": 7264
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/coxphloss.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/coxphloss.py",
+    "sha256": "649025b0f3597edcefbd37b957ed1fa3ad7bb705420e1b70d5186e29bc2fc457",
+    "bytes": 611
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/HSIC.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/HSIC.py",
+    "sha256": "cdbb8860d1cde2679f4fcc0354f0969d1a63bb8b6576e21d75f48fe772e7df00",
+    "bytes": 928
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/param_grid.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/param_grid.py",
+    "sha256": "49249bbe6fa5d5f801268a615fcf537caf24563d0c3c2f0dc7d90f14e565bb8c",
+    "bytes": 2244
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/dataset.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/dataset.py",
+    "sha256": "3a877692bf5d3d61bcaa3d2e004a756a59ed3a00620c9d8332b4b9c43ca3e378",
+    "bytes": 2358
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/plotshap.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/plotshap.py",
+    "sha256": "1a2a498a69985ec1ab9dffb86bcce09f9e9bfb1cc949f6b654802a9012efc85e",
+    "bytes": 818
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/type_prefixes.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/type_prefixes.py",
+    "sha256": "5cfe4aa9d9930656afe6344f39e931f79b33300b530d06b71165b1748ef32ab9",
+    "bytes": 677
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/buildnetwork.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/buildnetwork.py",
+    "sha256": "a28db8c6f8d1c7f7f69466c6c89c670c3a68ec7287d59b697622bcfdb8501827",
+    "bytes": 620
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/estimator.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/estimator.py",
+    "sha256": "e5cfaead34389ecf4bfc143a5c3ec770684ff1e8307aeb4a29a5a42dc8b676f9",
+    "bytes": 32229
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/pipelinetools.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/pipelinetools.py",
+    "sha256": "940f75befb33c2ea9c3da87b7a65153bdd0052e2159968d1bef60ec40cf438ff",
+    "bytes": 7812
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/__main__.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/__main__.py",
+    "sha256": "3af5359adfdb530cb650918e7cc4c1553cb6782f7098baaa0a247448c379d45e",
+    "bytes": 76
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/score.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/score.py",
+    "sha256": "e035730ee27ec9272dd5d07c31759c66ce2692533f7f613cca588507de4f27df",
+    "bytes": 3600
+  },
+  {
+    "path": "HSIC-myeVAE/myevae/src/myevae/mmd.py",
+    "source": "MO-RiskVAE/Jump/HSIC-myeVAE/myevae/src/myevae/mmd.py",
+    "sha256": "c5d61b562cf8954cc1d6c20dedb57a0612af8fb048308ecf9795475bcf53da49",
+    "bytes": 1356
+  },
+  {
+    "path": "snapshots/archived-src/myevae/__init__.py",
+    "source": "nested src.zip!myevae/__init__.py",
+    "sha256": "793b8086c5ea6f0107017cf4e4859713aa8f3207d335aac12227a3c293bb18f7",
+    "bytes": 3507
+  },
+  {
+    "path": "snapshots/archived-src/myevae/__main__.py",
+    "source": "nested src.zip!myevae/__main__.py",
+    "sha256": "3af5359adfdb530cb650918e7cc4c1553cb6782f7098baaa0a247448c379d45e",
+    "bytes": 76
+  },
+  {
+    "path": "snapshots/archived-src/myevae/buildnetwork.py",
+    "source": "nested src.zip!myevae/buildnetwork.py",
+    "sha256": "785b4e5d475cc011c8968112ccd7e3653d0d92f10273a31196ffd1c58b699d59",
+    "bytes": 572
+  },
+  {
+    "path": "snapshots/archived-src/myevae/coxphloss.py",
+    "source": "nested src.zip!myevae/coxphloss.py",
+    "sha256": "649025b0f3597edcefbd37b957ed1fa3ad7bb705420e1b70d5186e29bc2fc457",
+    "bytes": 611
+  },
+  {
+    "path": "snapshots/archived-src/myevae/dataset.py",
+    "source": "nested src.zip!myevae/dataset.py",
+    "sha256": "3a877692bf5d3d61bcaa3d2e004a756a59ed3a00620c9d8332b4b9c43ca3e378",
+    "bytes": 2358
+  },
+  {
+    "path": "snapshots/archived-src/myevae/estimator.py",
+    "source": "nested src.zip!myevae/estimator.py",
+    "sha256": "ca4189f0bf070c24dccbdae489ec64dd7691a91143499191ac3847400ba3052a",
+    "bytes": 32199
+  },
+  {
+    "path": "snapshots/archived-src/myevae/HSIC.py",
+    "source": "nested src.zip!myevae/HSIC.py",
+    "sha256": "f7f4f304ef8efaa1c888a3163f03819ccde88fa4b69f7142422b46a3bd0e8cbf",
+    "bytes": 806
+  },
+  {
+    "path": "snapshots/archived-src/myevae/kldivergence.py",
+    "source": "nested src.zip!myevae/kldivergence.py",
+    "sha256": "a7865a70c2431c1d20d2d1edf29f363a1a22ac93c1b1418247dd2e3b26724abb",
+    "bytes": 396
+  },
+  {
+    "path": "snapshots/archived-src/myevae/mmd.py",
+    "source": "nested src.zip!myevae/mmd.py",
+    "sha256": "c5d61b562cf8954cc1d6c20dedb57a0612af8fb048308ecf9795475bcf53da49",
+    "bytes": 1356
+  },
+  {
+    "path": "snapshots/archived-src/myevae/nn.py",
+    "source": "nested src.zip!myevae/nn.py",
+    "sha256": "c5c59a454d29f6141f923b1439e8c2d3ed148a8132d32e46d1916702a40b8a65",
+    "bytes": 7315
+  },
+  {
+    "path": "snapshots/archived-src/myevae/param_grid.py",
+    "source": "nested src.zip!myevae/param_grid.py",
+    "sha256": "7bef0cd09237496b120c0bf64656abf53db4bd0edc61184b4b35e1d0f8326278",
+    "bytes": 2233
+  },
+  {
+    "path": "snapshots/archived-src/myevae/params.py",
+    "source": "nested src.zip!myevae/params.py",
+    "sha256": "fcdbb4931ab314388a1be0749d4b54eeb079c66d612c2e44f945622c0ff087f6",
+    "bytes": 693
+  },
+  {
+    "path": "snapshots/archived-src/myevae/pipelinetools.py",
+    "source": "nested src.zip!myevae/pipelinetools.py",
+    "sha256": "940f75befb33c2ea9c3da87b7a65153bdd0052e2159968d1bef60ec40cf438ff",
+    "bytes": 7812
+  },
+  {
+    "path": "snapshots/archived-src/myevae/plotshap.py",
+    "source": "nested src.zip!myevae/plotshap.py",
+    "sha256": "264a1bf97a66070f3e4c7d6c8b2ae704e7d99d2c2f299e7f7219ddb571907122",
+    "bytes": 584
+  },
+  {
+    "path": "snapshots/archived-src/myevae/preprocess.py",
+    "source": "nested src.zip!myevae/preprocess.py",
+    "sha256": "73182440912257ea5e01a89fa2821a12e76f2e249dbba18cec956c5019ddedeb",
+    "bytes": 6542
+  },
+  {
+    "path": "snapshots/archived-src/myevae/score.py",
+    "source": "nested src.zip!myevae/score.py",
+    "sha256": "b8ccac9be8e3b38266c2fc6ec3fe627eac8d9457c511ae9feef237adc4bf58a5",
+    "bytes": 3400
+  },
+  {
+    "path": "snapshots/archived-src/myevae/shap.py",
+    "source": "nested src.zip!myevae/shap.py",
+    "sha256": "74c861ea4582dc3e2744e2bfe188bb2baa56580999305651f213e90edeced6f8",
+    "bytes": 9423
+  },
+  {
+    "path": "snapshots/archived-src/myevae/train.py",
+    "source": "nested src.zip!myevae/train.py",
+    "sha256": "55a2329134bb6119b89ad67563e7bb417b44df7f1cc49e6fce1dc5528a78ac23",
+    "bytes": 4781
+  },
+  {
+    "path": "snapshots/archived-src/myevae/type_prefixes.py",
+    "source": "nested src.zip!myevae/type_prefixes.py",
+    "sha256": "5cfe4aa9d9930656afe6344f39e931f79b33300b530d06b71165b1748ef32ab9",
+    "bytes": 677
+  }
+]
