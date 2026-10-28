@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myevae"
+version = "0.0.2"
+authors = [
+  { name = "Chang Jia Geng" },
+  { name = "Jianbin Chen" },
+  { name = "Guo-Liang Chew" },
+  { name = "Wee Joo Chng" },
+]
+maintainers = [
+  { name="Chang Jia Geng", email="jiageng1997@gmail.com" },
+]
+description = "MyeVAE: a multi-modal variational autoencoder for risk profiling of newly diagnosed multiple myeloma"
+readme = {file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.9"
+dependencies = [
+    "torch>=1.9.0",
+    "scikit-survival>=0.23.0", 
+    "scikit-learn>=0.24.1",
+    "importlib_resources",
+    "matplotlib",
+    "dask[distributed]",
+    "shap-0.47.3.dev8-offline-fork-for-myevae==0.0.1"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Healthcare Industry",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = [
+    "multiomics", "myeloma", "VAE", "variational autoencoder", "omics integration", "command line tool"
+]
+
+[project.scripts]
+myevae = "myevae:myevae_main"
+
+[tool.setuptools.package-data]
+myevae = [
+    "data/ensembl_ref.csv",
+]
+
+[tool.hatch.metadata] 
+allow-direct-references = true
+
+
+[project.urls]
+Homepage = "https://github.com/JiaGengChang/myevae"
+Software-Repo = "https://github.com/JiaGengChang/myevae.git"
+Publication-Repo = "https://github.com/JiaGengChang/myevae-paper.git"
+Issues = "https://github.com/JiaGengChang/myevae/issues"
+Example-Inputs = "https://myevae.s3.us-east-1.amazonaws.com/example_inputs.tar.gz"
+Example-Outputs = "https://myevae.s3.us-east-1.amazonaws.com/example_outputs.tar.gz"
