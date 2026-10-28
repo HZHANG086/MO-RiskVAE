@@ -1,0 +1,65 @@
+# External cohort evaluation (inference only; zero tuning on external data)
+project:
+  endpoint: os
+
+paths:
+  repo_root: ${MYEVAE_ROOT:/work/zh/myevae}
+  results_dir: ${MYEVAE_ROOT:/work/zh/myevae}/results
+  # Base dir for external cohort files (adjust on server)
+  external_root: ${EXTERNAL_DATA_ROOT:/work/zh/myevae/external}
+
+data:
+  event_col: censos
+  time_col: oscdy
+  event_is_censored: true   # CoMMpass: censos=1 删失, censos=0 事件
+  input_types: [exp, cna, gistic, fish, sbs, ig]
+  input_types_subtask: [clin]
+  # Default missing-modality strategy for inference
+  default_missing_handling: feature_mean_imputation
+  # CoMMpass processed train features (column template + train mean imputation)
+  train_features: ${MYEVAE_ROOT:/work/zh/myevae}/../example_inputs/train_features_os_processed.csv
+
+eval:
+  bootstrap_n: 1000
+  ci_level: 0.95
+  raw_csv: external_eval_raw.csv
+  checkpoint_glob: "test_model_os.pth"
+
+# Cohort entries — paths relative to external_root unless absolute
+cohorts:
+  - name: UAMS
+    feature_path: UAMS/features.csv
+    label_path: UAMS/labels.csv
+    modality_info: UAMS/modality_info.json
+    feature_overlap: TBD  # e.g. "expression+CNA+clinical; 4120/4500 CoMMpass genes"
+    missing_handling: feature_mean_imputation
+
+  - name: HOVON
+    feature_path: HOVON/features.csv
+    label_path: HOVON/labels.csv
+    modality_info: HOVON/modality_info.json
+    feature_overlap: TBD
+    missing_handling: feature_mean_imputation
+
+  - name: EMTAB
+    feature_path: EMTAB/features.csv
+    label_path: EMTAB/labels.csv
+    modality_info: EMTAB/modality_info.json
+    feature_overlap: TBD
+    missing_handling: feature_mean_imputation
+
+  - name: APEX
+    feature_path: APEX/features.csv
+    label_path: APEX/labels.csv
+    modality_info: APEX/modality_info.json
+    feature_overlap: TBD
+    missing_handling: feature_mean_imputation
+
+# Models to evaluate (checkpoint dirs filled at CLI)
+models:
+  - variant: A0
+    model_name: MyeVAE
+  - variant: A1
+    model_name: MO-RiskVAE
+  - variant: ENC
+    model_name: Encoder+Cox

@@ -1,0 +1,46 @@
+# Discriminative baselines (Batch 1: CoxPH + Encoder+Cox; DeepSurv in Batch 2)
+project:
+  endpoint: os
+  seeds: [42, 43, 44, 45, 46]
+
+paths:
+  repo_root: ${MYEVAE_ROOT:/work/zh/myevae}
+  inputs_dir: ${MYEVAE_ROOT:/work/zh/myevae}/inputs
+  output_root: ${MYEVAE_ROOT:/work/zh/myevae}/output/baselines
+  results_dir: ${MYEVAE_ROOT:/work/zh/myevae}/results
+
+data:
+  event_col: censos
+  time_col: oscdy
+  input_types: [exp, cna, gistic, fish, sbs, ig]
+  input_types_subtask: [clin]
+  train_features: train_features_os_processed.csv
+  valid_features: valid_features_os_processed.csv
+  labels: labels.csv
+
+# Elastic Net / CoxPH on concatenated features (sklearn)
+coxph:
+  variant: COX
+  model_name: CoxPH
+  alpha: 0.01
+  l1_ratio: 0.5
+  max_iter: 10000
+
+# Encoder + Cox partial likelihood (PyTorch); fair to A1
+encoder_cox:
+  variant: ENC
+  model_name: Encoder+Cox
+  z_dim: 32
+  layer_dims: [[32, 4], [16, 4], [4, 1], [4, 1], [4, 1], [4, 1]]
+  layer_dims_subtask: [4, 1]
+  lr: 0.0005
+  batch_size: 1024
+  epochs: 100
+  burn_in: 20
+  patience: 5
+  dropout: 0.0
+  device: cpu
+
+eval:
+  raw_csv: baseline_results_raw.csv
+  summary_csv: baseline_results_summary.csv

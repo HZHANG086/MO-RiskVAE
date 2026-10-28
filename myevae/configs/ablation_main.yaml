@@ -1,0 +1,55 @@
+# Batch 1: A0 / A1 multi-seed ablation (MyeVAE repo)
+project:
+  name: main_ablation
+  endpoint: os
+  seeds: [42, 43, 44, 45, 46]
+
+paths:
+  # Override with MYEVAE_ROOT env on server
+  repo_root: ${MYEVAE_ROOT:/work/zh/myevae}
+  inputs_dir: ${MYEVAE_ROOT:/work/zh/myevae}/inputs
+  output_root: ${MYEVAE_ROOT:/work/zh/myevae}/output/main_ablation
+  results_dir: ${MYEVAE_ROOT:/work/zh/myevae}/results
+
+data:
+  event_col: censos
+  time_col: oscdy
+  input_types: [exp, cna, gistic, fish, sbs, ig]
+  input_types_subtask: [clin]
+  train_features: train_features_os_processed.csv
+  valid_features: valid_features_os_processed.csv
+  labels: labels.csv
+
+training:
+  # Passed to: python -m myevae train os ...
+  module: myevae
+  inputs_arg: inputs
+  burn_in: 20
+  patience: 5
+  epochs: 100
+  lr: 0.0005
+  batch_size: 1024
+  z_dim: 32
+
+variants:
+  A0:
+    model_name: MyeVAE
+    run_name_prefix: A0_myevae
+    output_subdir: A0_s{seed}
+    beta_start: 1.0
+    beta_end: 1.0
+    beta_step: 0
+  A1:
+    model_name: MO-RiskVAE
+    run_name_prefix: A1_beta033
+    output_subdir: A1_s{seed}
+    beta_start: 0.33
+    beta_end: 0.33
+    beta_step: 0
+
+eval:
+  split: valid
+  checkpoint_glob: "test_model_os.pth"
+  json_glob: "test_model_os.json"
+  raw_csv: main_ablation_raw.csv
+  summary_csv: main_ablation_summary.csv
